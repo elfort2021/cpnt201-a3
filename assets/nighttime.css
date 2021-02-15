@@ -1,0 +1,66 @@
+body { 
+  background-color:#192733;
+  font-family: 'Playfair Display', serif;
+
+
+}
+.owl-svg { 
+  display: block; 
+  margin: auto; 
+  
+  max-width: 300px;
+  height: 300px; 
+  
+  } 
+  
+
+h2 { 
+  display: flex; 
+  justify-content: center; 
+  font-weight: 500 italic; 
+  font-size: 1rem; 
+
+}
+
+p { 
+  display: flex;
+  justify-content: center;
+
+  font-size: .75rem; 
+}
+
+a { 
+  
+  text-decoration: none;
+  color: white; 
+  
+}
+
+a:hover{
+  color: gray;
+}
+
+/*Owl Time!!*/ 
+.owl-eyes { 
+  fill: #E9A53A;
+  stroke: #661919; 
+  stroke-width: 10px; 
+
+}
+
+.owl-body { 
+  fill: #191919;
+
+}
+
+.owl-beak { 
+  fill: #331919; 
+}
+
+
+
+@media screen and (max-width: 467px) {
+  svg{
+    max-width: 250px;
+  }
+}
